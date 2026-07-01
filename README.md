@@ -1,25 +1,92 @@
-# Smart Environmental Monitor (IoT Project 1)
+# DecodeLabs Project 1 - IoT Based Smart System Simulation
 
-## Overview
-This project is developed as part of the DecodeLabs IoT Internship Project 1.
+## 📌 Project Overview
 
-The Smart Environmental Monitor is an IoT-based system that monitors environmental conditions such as temperature and humidity using a simulated DHT11/DHT22 sensor.
+This project is developed as part of the DecodeLabs Internship Program.  
+The project demonstrates an **IoT-based smart system simulation** using software tools without requiring physical hardware.
 
-## Objective
-- Read temperature and humidity data
-- Process sensor values
-- Display real-time environmental data on the Serial Monitor
-- Understand basic IoT sensor data handling
+The system simulates sensor data collection, device control, and automated responses based on predefined conditions.
 
-## Features
-- Temperature monitoring
-- Humidity monitoring
-- Sensor data simulation
-- Real-time output every 2 seconds
-- Simple Python implementation
+## 🎯 Objectives
 
-## Technologies Used
-- Python
-- IoT Concepts
-- DHT11/DHT22 Sensor Simulation
+- Understand basic IoT concepts and workflow
+- Simulate sensor readings using software
+- Implement automation logic
+- Demonstrate device monitoring and control
+- Practice Python programming and project structuring
+
+## 🛠️ Technologies Used
+
+- Python 3.x
 - VS Code
+- Object-Oriented Programming Concepts
+- IoT Simulation Concepts
+
+## 📂 Project Structure
+
+
+DecodeLabs_Project_1/
+│
+├── main.py
+├── sensor.py
+├── controller.py
+├── README.md
+│
+└── output/
+└── screenshots
+
+
+## ⚙️ Features
+
+- Simulated sensor data generation
+- Real-time monitoring
+- Automatic decision making
+- Device status control
+- Console-based output display
+
+## ▶️ How to Run the Project
+
+### Step 1: Clone the Repository
+
+
+git clone <your-repository-link>
+
+
+### Step 2: Open Project Folder
+
+
+cd DecodeLabs_Project_1
+
+
+### Step 3: Run the Program
+
+
+python main.py
+
+
+## 💻 Sample Output
+
+
+IoT Smart System Started
+
+Sensor Reading:
+Temperature : 28°C
+Humidity : 65%
+
+System Status:
+Fan : ON
+Light : OFF
+
+Process Completed Successfully
+
+
+## 📚 Learning Outcomes
+
+- Learned IoT system architecture
+- Developed Python modules
+- Implemented sensor simulation
+- Improved debugging and GitHub project management skills
+
+## 👩‍💻 Author
+
+Srinitha Deshimi
